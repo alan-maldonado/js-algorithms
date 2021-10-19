@@ -11,3 +11,8 @@ test('balancedParens should return true if balanced', () => {
 test('balancedParens should return true if not balanced', () => {
   expect(balancedParens(')(')).toEqual(false);
 });
+
+test('balancedParens should return true if not balanced', () => {
+  expect(balancedParens('())(')).toEqual(false);
+});
+

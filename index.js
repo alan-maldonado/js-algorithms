@@ -4,6 +4,7 @@
 // "(())()"" -> returns true
 // ")(" -> returns false
 // "()(" -> returns false
+// "())(" -> returns false
 
 function balancedParens (str) {
 }
