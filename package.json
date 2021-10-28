@@ -1,0 +1,26 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "jest test.js",
+    "test": "jest test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alan-maldonado/js-algorithms.git"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/alan-maldonado/js-algorithms/issues"
+  },
+  "homepage": "https://github.com/alan-maldonado/js-algorithms#readme",
+  "dependencies": {
+    "jest": "^27.2.5"
+  }
+}
